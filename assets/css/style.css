@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: rgb(237, 240, 225);
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+section{
+    position: relative;
+}
+
+h1, p, h3, img{
+    position: absolute;
+}
+
+img{
+    right: 20px;
+}
+h1{
+    top:200px;
+    left: 100px;
+}
+h1:last-of-type{
+    top: 240px;
+}
+
+p{
+    width: 300px;
+    top:330px;
+    left: 100px;
+}
+
+h3{
+    width: 150px;
+    text-align: center;
+    background-color: rgb(238, 180, 23);
+    border-radius: 25px;
+    padding: 10px 20px;
+    left: 100px;
+    top:460px;
+}
